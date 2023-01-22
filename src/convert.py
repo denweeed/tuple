@@ -3,7 +3,7 @@ def convert_string(d: tuple, delim: str = ", ") -> str:
 
 
 if __name__ == '__main__':
-    tuple1 = ('1', '2', '3', '4', '5', '5', '5', '4', '2',)
+    tuple1 = ('1', '7', '3', '4', '5', '5', '5', '4', '2',)
     str1 = convert_string(tuple1)
     print(str1)
 
