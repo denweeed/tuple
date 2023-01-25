@@ -1,8 +1,8 @@
 from collections import Counter
 
 
-def repeat():
-    return [k for k, v in Counter(d).items() if v > 1]
+def repeat(k: tulpe):
+    return [k for k, v in Counter(tuple1).items() if v > 1]
 
 
 if __name__ == '__main__':

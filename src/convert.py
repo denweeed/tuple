@@ -7,7 +7,7 @@ if __name__ == '__main__':
     str1 = convert_string(tuple1)
     print(str1)
 
-'''The function convert_string is used to convert a tuple to a string
+''' The function convert_string is used to convert a tuple to a string
     Parameters
     ----------
     delim : str, optional
