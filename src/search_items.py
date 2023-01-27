@@ -2,11 +2,10 @@ import typing
 
 
 def f(t: tuple, elem: typing.Any):
+    """"This function displays the element by its number in the tuple
+    """
     return t.index(elem)
 
-
-''' This function displays the element by its number in the tuple 
-'''
 
 if __name__ == '__main__':
     tuple1 = ('1', '7', '3', '4', '5', '5', '5', '4', '2',)

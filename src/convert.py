@@ -1,4 +1,10 @@
 def convert_string(d: tuple, delim: str = ", ") -> str:
+    """ The function convert_string is used to convert a tuple to a string
+        Parameters
+        ----------
+        delim : str, optional
+                separator
+    """
     return delim.join(d)
 
 
@@ -7,9 +13,3 @@ if __name__ == '__main__':
     str1 = convert_string(tuple1)
     print(str1)
 
-''' The function convert_string is used to convert a tuple to a string
-    Parameters
-    ----------
-    delim : str, optional
-            separator
-'''
